@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(131, 112, 136);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height:400px ;
+    border-radius: 25px;
+    text-align: center;
+    padding: 0px 20px ; 
+ 
+    overflow: scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    
+}
+
+.form-container{
+     background-color: rgb(255, 255, 255); 
+    position: fixed;
+    padding: 10px 0 ;
+    
+    
+}
+.container form{
+    border: 1px solid grey;
+    outline: none;background-color: rgb(238, 238, 238);
+    border-radius: 20px;
+ 
+    
+}
+.container form input,
+  .container form button{
+    padding: 10px ;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    
+}
+.container form i{
+    font-size: large;
+    padding: 1px ;
+}
+
+
+.container form button{
+    background-color: rgb(245, 116, 42);
+    border-radius: 50%;
+    margin-left: 36px;
+    color: white;
+}
+.content{
+ display: grid;
+ text-align: start;
+ align-items:first baseline;
+ grid-template-columns: 1fr 10px;
+ justify-content: space-between;
+ padding: 5px 8px;
+ margin-top: 10px;
+ position: relative;
+color: rgb(63, 63, 63);
+}
+.content i{
+    font-size: large;
+position: absolute;
+top:13px;
+right: 5px;
+}
+.task{
+    margin-top: 63px;
+}
+.task h3{
+    padding: 5px 0;
+    max-width: 200px;
+    overflow:hidden ;
+}
+
+.task .content:nth-child(even){
+background-color: rgb(218, 218, 218);
+border-radius: 13px;
+}
+
+.underLine{
+    text-decoration:line-through;
+}
+.green{
+    color: green;
+}
+.red{
+    color: red;
+}
+/* <i class="fa-regular fa-circle-xmark"></i> */

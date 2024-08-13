@@ -1,0 +1,61 @@
+[
+    {
+        "id": 1,
+        "name":" T-shirt",
+        "price": 200,
+        "image": "products/f2.jpg"
+    },
+    {
+        "id": 2,
+        "name":" Hoodie",
+        "price": 250,
+        "image": "products/f3.jpg"
+    },
+    {
+        "id": 3,
+        "name":" Checked Shirt",
+        "price": 290,
+        "image": "products/f4.jpg"
+    },
+    {
+        "id": 4,
+        "name":" Goa Pattern",
+        "price": 200,
+        "image": "products/f5.jpg"
+    },
+    {
+        "id": 5,
+        "name":" LD05 LOUNGE CHAIR",
+        "price": 300,
+        "image": "products/f1.jpg"
+    },
+    {
+        "id": 6,
+        "name":" LD06 LOUNGE CHAIR",
+        "price": 200,
+        "image": "products/f6.jpg"
+    },
+    {
+        "id": 7,
+        "name":" LD07 LOUNGE CHAIR",
+        "price": 200,
+        "image": "products/f7.jpg"
+    },
+    {
+        "id": 8,
+        "name":" LD08 LOUNGE CHAIR",
+        "price": 200,
+        "image": "products/f8.jpg"
+    },{
+        "id": 9,
+        "name":" LD08 LOUNGE CHAIR",
+        "price": 200,
+        "image": "products/f8.jpg"
+    },{
+        "id": 10,
+        "name":" LD08 LOUNGE CHAIR",
+        "price": 200,
+        "image": "products/f8.jpg"
+    }
+
+]
